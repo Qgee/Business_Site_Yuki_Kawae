@@ -1,0 +1,90 @@
+
+body{
+	margin: 0px;
+}
+
+.wallpaper{
+	width: 100%;
+	height: 680px;
+	background-color: green;
+	background-image: url(chili_pork.jpg);
+	background-size: 100%;
+}
+
+
+.contact{
+	width: 100%;
+	height: hv;
+	padding-left: 100px;
+	padding-top: 100px;
+
+}
+
+span{
+	font-size: 30px;
+}
+
+#nameBox_style{
+	width: 400px;
+	height: 50px;
+	font-family: fantasy;
+	font-size: 45px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#phoneBox_style{
+	width: 400px;
+	height: 50px;
+	font-family: fantasy;
+	font-size: 45px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#emailBox_style{
+	width: 400px;
+	height: 50px;
+	font-family: fantasy;
+	font-size: 45px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#msgBox_style{
+	width: 800px;
+	height: 100px;
+	font-family: fantasy;
+	font-size: 20px;
+	color: blue;
+	border-radius: 5px;
+	text-align: left;
+
+}
+
+.myButton{
+	width: 175px;
+	height: 50px;
+	padding: 15px 15px;
+	border: 2px solid green;
+	color: gray;
+	background-color: #eed2e7;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 40px;
+	text-align: center;
+}
+.my-button:hover{
+margin: 10px 0 0 10px;
+}
+
+.success{
+	margin: 0 auto;
+	color: red;
+	text-align: center;
+	font-size: 50px;
+	font-family: fantasy;
+	padding-top: 300px;
+}
+

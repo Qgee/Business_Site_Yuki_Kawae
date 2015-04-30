@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jQuery.js"></script>
+</head>
+
+
+<body>
+
+<div class="wallpaper">
+	<div class="contact">
+
+		<form>
+			<span>Name</span><br>
+			<input type="text" name="Name" id="nameBox_style"><br>
+			<span>Phone Number</span><br>
+			<input type="text" name="Phone" id="phoneBox_style"><br>
+			<span>Email</span><br>
+			<input type="text" name="Email" id="emailBox_style"><br>
+			<span>Message</span><br>
+			<input type="text" name="Message" id="msgBox_style"><br>
+		</form>
+
+		<a class="myButton" onclick="submit()">Submit</a>
+	</div>
+</div>
+
+<script>
+	function submit(){
+		var Name 	=	$("#nameBox_style").val();
+		var Phone 	= 	$("#phoneBox_style").val();
+		var Email 	= 	$("#emailBox_style").val();
+		var Message = 	$("#msgBox_style").val();
+
+		alert("Submitted Data: " + Name + ", " + Phone + ", " + Email + ", " + Message);
+
+		window.location.href = "success.html"
+	}
+
+</script>
+
+</body>
+
+
+</html>
