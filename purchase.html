@@ -13,8 +13,26 @@
 			<nav>
 				<h1>Yuki Kawae</h1>
 			</nav>
+		<div class="contact">
+			<form>
+					<span>Name</span><br>
+					<input type="text" name="Name" id="nameBox_style"><br>
+					<span>Phone Number</span><br>
+					<input type="text" name="Phone" id="phoneBox_style"><br>
+					<span>Email</span><br>
+					<input type="text" name="Email" id="emailBox_style"><br>
+					<span>Message</span><br>
+					<input type="text" name="Message" id="msgBox_style"><br>
+				</form>
 
-			<img src="Photos\axe-1.jpg">
+					<a class="myButton" onclick="submit()">Submit</a>
+		</div>
+
+			<img src="Photos\page1-6.jpg">
+
+			
+
+				
 
 			<div class="push"></div>
 
@@ -22,13 +40,27 @@
 		<div class="foot">
 			<footer>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="axes.html">Axes</a></li>
-					<li><a href="furniture.html">Furniture</a></li>
-					<li><a href="purchase.html">Inquiries</a></li>
+					<li><a id="homelink" href="index.html">Home</a></li>
+					<li><a id="axelink" href="axes.html">Axes</a></li>
+					<li><a id="furnlink" href="furniture.html">Furniture</a></li>
+					<li><a id="purchlink" href="purchase.html">Inquiries</a></li>
 				</ul>
 			</footer>
-		</div>	
+		</div>
+		<script>
+	function submit(){
+		var Name 	=	$("#nameBox_style").val();
+		var Phone 	= 	$("#phoneBox_style").val();
+		var Email 	= 	$("#emailBox_style").val();
+		var Message = 	$("#msgBox_style").val();
+
+		alert("Submitted Data: " + Name + ", " + Phone + ", " + Email + ", " + Message);
+
+		window.location.href = "success.html"
+	}
+
+</script>	
+		<script src="jQuery.js"></script>
 	</body>
 
 </html>
